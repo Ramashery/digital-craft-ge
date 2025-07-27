@@ -1,0 +1,12 @@
+# For all web crawlers (Google, Yandex, etc.)
+User-agent: *
+
+# Disallow crawlers from accessing the raw .html files to prevent duplicate content.
+Disallow: /*.html$
+Disallow: /index.html
+
+# Allow everything else.
+Allow: /
+
+# Specify the location of your sitemap.
+Sitemap: https://digital-craft-tbilisi.netlify.app/sitemap.xml
